@@ -1,3 +1,0 @@
-# File Transfer Application
-
-Developed a File Transfer Application using socket.io for seamless transfer of small files. Implement user registration and login functionalities for secure access to file transfer features. Design a user-friendly interface with responsive Ul/UX for easy file selection and transfer across devices. Enable users to upload files from their local storage and initiate transfer to another user recipient. Implement real-time file transfer using socket.io for efficient and reliabie data transmission. Include progress indicators and status updates to keep users informed about the transfer process. Ensure data security during transfer by implementing encryption measures and secure socket connections.
