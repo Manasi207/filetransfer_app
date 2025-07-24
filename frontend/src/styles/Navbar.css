@@ -1,4 +1,4 @@
-/* styles/Navbar.css */
+/* src/styles/Navbar.css */
 
 .navbar {
   display: flex;
@@ -10,6 +10,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  font-size: 1.5rem;
 }
 
 .nav-title {
@@ -20,20 +21,29 @@
 
 .nav-links {
   display: flex;
-  gap: 1rem;
-}
-
-.nav-button {
+  gap: 1.5rem;
   text-decoration: none;
-  background-color: #000000;
+  background-color: #000000; /* Deep Black */
   color: #ffffff;
   padding: 0.5rem 1.2rem;
   border-radius: 6px;
   font-weight: 600;
-  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link {
+  text-decoration: none;
+  background-color: #000000; /* Deep Black */
+  color: #ffffff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .nav-button:hover {
-  background-color: #333333;
-  color: #ffffff;
+  background-color: #1a1a1a; /* Slightly lighter black on hover */
+  transform: scale(1.03);
 }

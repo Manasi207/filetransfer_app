@@ -1,6 +1,7 @@
+// src/components/Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles/Navbar.css'; // Adjust the path as necessary
+import '../styles/Navbar.css'; // ✅ Corrected path
 
 const Navbar = () => {
   return (
@@ -15,5 +16,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
